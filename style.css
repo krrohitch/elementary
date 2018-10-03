@@ -54,7 +54,7 @@ a.link {
 
 .hero-container {
 	width: 100%;
-	height: 100vh;
+	height: 120vh;
 	text-align: center;
 	color: #ffffff;
 	background-image: radial-gradient(circle, #ef473a 0, #cb2d3e 100%);
@@ -65,5 +65,61 @@ a.link {
 }
 
 .hero-container>p {
-	margin-top: 10rem;
+	margin-top: 2rem;
+}
+
+.about-container {
+  text-align: center;
+  background-color: #efe3e3;
+  margin: 0 auto;
+  witdh: 80%;
+}
+
+.page-container>.title {
+  padding-top: 1em;
+  margin: 0;
+  font-size: 3.5em;
+}
+
+.page-container>.subtitle {
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.about-section {
+  display: flex;
+  padding: 5em 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about-section>.image {
+  width: 80%;
+  
+}
+
+.about-section>.text>p {
+  width: 80%;
+  padding: 0 5em;
+  font-size: 1.25em;
+}
+
+.about-section>.text>a {
+  width: 80%;
+  padding: 0 5em;
+  font-size: 1.5em;
+  color: black;
+  text-decoration: underline;
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+  position: relative;
+  width: calc(64% + 300px);
+  height: 100%;
 }
